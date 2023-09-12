@@ -10,12 +10,13 @@ body{
 main{
 	width: 94%;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 25px;
 	background-color: white;
 	padding: 10px 8px;
 	display: flex;
 	justify-content: center;
 	gap: 10px;
+	box-shadow: 5px 5px 10px 3px grey;
 }
 
 .container{
@@ -32,6 +33,7 @@ main{
 .article h1{
 	line-height: 1.2;
 	font-size: 26px;
+	font-weight: 700;
 	margin-bottom: 3px;
 }
 .article p{
