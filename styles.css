@@ -51,10 +51,13 @@ main{
 	display: flex;
 	align-items: start;
 	justify-content: start;
+	margin-bottom: 20px;
 }
 
 .profile img{
 	width: 30%;
+	min-width: 120px;
+	max-width: 170px;
 	margin-right: 20px
 }
 
@@ -63,4 +66,48 @@ main{
 }
 .details>div {
 	margin: 6px 0px;
+/* 	font-size: 1.2vw; */
+}
+.skill_imgs{
+	width: 98%;
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+.skill_imgs img{
+	height: 25px;
+	margin: 0px 7px;
+}
+
+.my_block{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.prog_bar{
+	width: 100%;
+	height: 5px;
+	border-radius:2px;
+	background-color: #cde1f8;
+}
+
+.myprog{
+	height: 5px;
+	border-radius:2px;
+	background-color: #0c78ff;
+/* 	width: 45%;	 */
+	z-index:100;
+}
+
+.perc_width_95{
+	width: 95%;
+}
+.perc_width_90{
+	width: 90%;
+}
+.perc_width_93{
+	width: 93%;
+}
+.perc_width_99{
+	width: 99%;
 }
